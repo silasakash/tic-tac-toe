@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <script async defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Condensed:wght@200&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <dialog>
+    <form>
+      <legend>Enter Player Names</legend>
+      <input type="text" id="player1-name" name="player1" placeholder="Player 1" value="Player 1">
+      <input type="text" id="player2-name" name="player2" placeholder="Player 2" value="Player 2">
+      <input type="submit" value="Confirm" id="playername-submit">
+    </form>
+  </dialog>
+  <header>
+    <img src="tic-tac-toe.png" alt="tic-tac-toe blank board" width="100px">
+    <h1>Tic-Tac-Toe</h1>
+  </header>
+  <div id="game-container">
+    <div id="commentary-banner"></div>
+    <div id="game-board">
+      <div id="cell00"></div>
+      <div id="cell01"></div>
+      <div id="cell02"></div>
+      <div id="cell10"></div>
+      <div id="cell11"></div>
+      <div id="cell12"></div>
+      <div id="cell20"></div>
+      <div id="cell21"></div>
+      <div id="cell22"></div>
+    </div>
+  </div>
+</body>
+
+</html>
